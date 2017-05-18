@@ -1,7 +1,21 @@
 *{
 font-family: 'Raleway', sans-serif;
+background-color: #F78E69;
+color: white;
 }
 
+.imagen{
+	border: 10px solid;
+	border-color: #ABE188;
+}
+/*no resulto la galeria xD.galeria {
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+*/
 /*
 Colores & tipografía: 
 Verde - #ABE188;
