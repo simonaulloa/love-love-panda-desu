@@ -1,12 +1,75 @@
-*{
+body{
 font-family: 'Raleway', sans-serif;
-background-color: #F78E69;
+background-color: #ABE188;
 color: white;
+margin: 0 !important;
 }
 
 .imagen{
 	border: 10px solid;
-	border-color: #ABE188;
+	border-color: #F78E69;
+}
+.segundo{
+	background-image: url(../img/uno.jpg);
+	background-size: cover;
+	/*background-attachment: fixed;  no era pero es buen efecto xD baja la imagen junto al scroll*/
+	min-height: 460px;
+	border-top:10px solid #F78E69;
+	border-bottom:10px solid #F78E69;
+	width: 100%;
+    margin: 0 auto;
+}
+.segundo1{
+	background-image: url(../img/dos.jpg);
+	background-size: cover;
+	min-height: 690px;
+	border-top:10px solid #F78E69;
+	border-bottom:10px solid #F78E69;
+	width: 100%;
+    margin: 0 auto;
+}
+.segundo2{
+	background-image: url(../img/tres.jpg);
+	background-size: cover;
+	min-height: 690px;
+	border-top:10px solid #F78E69;
+	border-bottom:10px solid #F78E69;
+	width: 100%;
+    margin: 0 auto;
+}
+.segundo img{
+	width: 100%;
+    margin: 0 auto;
+
+}
+.primero{
+	font-size: 25px;
+	text-align: right; 
+	width: 1200px;
+    margin: 0 auto;
+}
+
+.about{
+	width: 500px;
+	padding: 20px;
+	margin: 0 auto;
+	background-color:#F78E69;
+}
+#galery{
+	padding: 50px;
+	text-align: center;
+	margin: 0 auto;
+    width: 1000px;
+}
+.imagen-a1{
+	border: 10px solid #fff;
+	margin-left: 50px;
+	margin-top: 30px;
+
+}
+
+#borde{
+	margin: 50px;
 }
 /*no resulto la galeria xD.galeria {
     display: block;
